@@ -13,11 +13,13 @@ import web2 from "../public/web2.png"
 import web3 from "../public/web3.png"
 import web4 from "../public/web4.png"
 import Image from "next/image"
+import {useState} from "react";
 
 
 export default function Home() {
+    const [darkMode, setDarkMode] = useState(true)
   return (
-    <div>
+    <div className={darkMode ? 'dark'  : ""}>
       <Head>
         <title>Asrul Cahyadi Putra</title>
         <meta name="description" content="Hey there! I'm Asrul Cahyadi Putra." />
@@ -30,7 +32,7 @@ export default function Home() {
                   <h1 className="font-burtons text-xl">Asrul Cahayadi Putra</h1>
                   <ul className="flex items-center">
                       <li>
-                          <BsFillMoonStarsFill className="cursor-pointer text-2xl"/>
+                          <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl"/>
                       </li>
                       <li>
                           <a href="" className="bg-gradient-to-r from-cyan-500 text-to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8">Resume</a>
