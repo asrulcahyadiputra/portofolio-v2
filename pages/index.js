@@ -50,13 +50,13 @@ export default function Home() {
                   </p>
 
                   <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-                        <a href="https://www.instagram.com/asrulcahyadi99/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.instagram.com/asrulcahyadi99/" target="_blank" rel="noreferrer">
                             <AiFillInstagram/>
                         </a>
-                          <a href="https://www.linkedin.com/in/asrul-cahyadi-putra/" target="_blank" rel="noopener noreferrer">
+                          <a href="https://www.linkedin.com/in/asrul-cahyadi-putra/" target="_blank" rel="noreferrer">
                               <AiFillLinkedin/>
                           </a>
-                          <a href="https://github.com/asrulcahyadiputra" target="_blank" rel="noopener noreferrer">
+                          <a href="https://github.com/asrulcahyadiputra" target="_blank" rel="noreferrer">
                               <AiFillGithub/>
                           </a>
                   </div>
