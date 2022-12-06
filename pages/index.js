@@ -63,7 +63,7 @@ export default function Home() {
               <div>
                   <h3 className="text-3xl py-1 dark:text-white">Experience</h3>
                   <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-                      Since the beginning of my journey as a full stack web developer, I've done remote work at
+                      Since the beginning of my journey as a full stack web developer, I&apos;ve done remote work at
                       <span className="text-teal-500"> PT Samudera Aplikasi Indonesia, Booble.id, Baduma.id,</span> as a web developer and collaborated with talanted people to create digital products for both business and consumer use. Also at <span className="text-teal-500">PT Ruang Raya Indoensia </span> as a instructure backend engineering.
                   </p>
               </div>
@@ -72,7 +72,7 @@ export default function Home() {
                   <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
                       <Image src={code} width={100} height={100} alt="code"/>
                       <h3 className="text-lg font-medium pt-8 pb-2">Code your dream project</h3>
-                      <p className="py-2">Do you have an idea for your next great website? Let's make it a reality</p>
+                      <p className="py-2">Do you have an idea for your next great website? Let&apos;s make it a reality</p>
                       <h4 className="py-4 text-teal-600">Tech Stack and Tools I Use</h4>
                       <p className="text-gray-800 py-1">PHP</p>
                       <p className="text-gray-800 py-1">JavaScript</p>
