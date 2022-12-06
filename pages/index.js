@@ -54,7 +54,7 @@ export default function Home() {
                   </div>
 
                   <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-                      <Image src={hero} layout="fill" objectFit="cover"/>
+                      <Image src={hero} layout="fill" objectFit="cover" alt="hero"/>
                   </div>
               </div>
           </section>
@@ -70,7 +70,7 @@ export default function Home() {
 
               <div className="lg:flex gap-10">
                   <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-                      <Image src={code} width={100} height={100}/>
+                      <Image src={code} width={100} height={100} alt="code"/>
                       <h3 className="text-lg font-medium pt-8 pb-2">Code your dream project</h3>
                       <p className="py-2">Do you have an idea for your next great website? Let's make it a reality</p>
                       <h4 className="py-4 text-teal-600">Tech Stack and Tools I Use</h4>
@@ -102,6 +102,7 @@ export default function Home() {
               <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
                   <div className="basis-1/3 flex-1 ">
                       <Image
+                          alt="porto1"
                           className="rounded-lg object-cover"
                           width={"100%"}
                           height={"100%"}
@@ -111,6 +112,7 @@ export default function Home() {
                   </div>
                   <div className="basis-1/3 flex-1 ">
                       <Image
+                          alt="porto2"
                           className="rounded-lg object-cover"
                           width={"100%"}
                           height={"100%"}
@@ -120,6 +122,7 @@ export default function Home() {
                   </div>
                   <div className="basis-1/3 flex-1 ">
                       <Image
+                          alt="porto3"
                           className="rounded-lg object-cover"
                           width={"100%"}
                           height={"100%"}
@@ -129,6 +132,7 @@ export default function Home() {
                   </div>
                   <div className="basis-1/3 flex-1 ">
                       <Image
+                          alt="porto4"
                           className="rounded-lg object-cover"
                           width={"100%"}
                           height={"100%"}
